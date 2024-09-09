@@ -5,10 +5,10 @@
 # create_clock -add -name  sys_clk_pin -period 20.0 -waveform {0 10} [get_ports { sysclk }];
 
 ## LEDs
-# set_property -dict { PACKAGE_PIN J16   IOSTANDARD LVCMOS33 } [get_ports { leds[3] }];
-# set_property -dict { PACKAGE_PIN K16   IOSTANDARD LVCMOS33 } [get_ports { leds[2] }];
-# set_property -dict { PACKAGE_PIN M15   IOSTANDARD LVCMOS33 } [get_ports { leds[1] }];
-# set_property -dict { PACKAGE_PIN M14   IOSTANDARD LVCMOS33 } [get_ports { leds[0] }];
+# set_property -dict { PACKAGE_PIN J16   IOSTANDARD LVCMOS33 } [get_ports { led[3] }];
+# set_property -dict { PACKAGE_PIN K16   IOSTANDARD LVCMOS33 } [get_ports { led[2] }];
+# set_property -dict { PACKAGE_PIN M15   IOSTANDARD LVCMOS33 } [get_ports { led[1] }];
+# set_property -dict { PACKAGE_PIN M14   IOSTANDARD LVCMOS33 } [get_ports { led[0] }];
 
 ## Buttons
 # set_property -dict { PACKAGE_PIN N15   IOSTANDARD LVCMOS33 } [get_ports { btn[0] }];
