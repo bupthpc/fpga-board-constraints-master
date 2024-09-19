@@ -1,4 +1,5 @@
 # See https://www.alinx.com/public/upload/file/AX7020_UG.pdf
+# Part: xc7z020clg400-2
 
 ## Clock signal
 # set_property -dict { PACKAGE_PIN U18   IOSTANDARD LVCMOS33 } [get_ports { sysclk }]
